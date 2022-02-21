@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [{
@@ -38,8 +38,7 @@ const questions = [{
         type: 'list',
         name: 'license',
         message: 'Please pick the license that will apply for this project.',
-        choices: ['GPLv3', 'LGPLv3', 'Mozilla', 
-        'Apache', 'MIT', 'Boost', 'Unlicense']
+        choices: ['AGPLv3', 'GPLv3', 'LGPLv3', 'Mozilla', 'Apache', 'MIT', 'Boost', 'Unlicensed']
     },
     {
         type: 'input',
@@ -54,7 +53,7 @@ const questions = [{
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, promptAnswers) {
+function writeToFile(fileName, markdownOutput) {
     return new Promise((resolve, reject) => {
         fs.writeFile(fileName, markdownOutput, err => {
           // if error, reject the Promise
