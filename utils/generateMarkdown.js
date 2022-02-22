@@ -52,7 +52,8 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   var renderedSection = ``
-  renderedSection = `${renderLicenseLink(license)}  ${renderLicenseBadge(license)}`;
+  renderedSection = `${renderLicenseLink(license)}  
+  ${renderLicenseBadge(license)}`;
   return renderedSection;
 };
 
@@ -64,14 +65,11 @@ function generateMarkdown(promptAnswers) {
 ## Description
 ${promptAnswers.description}
 
-## Badges
-![Project License Badge](https://img.shields.io/badge/license-${promptAnswers.license}-green)
-
 ## Table of Contents-
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [How to Contribute](#contribute)
+- [How to Contribute](#how-to-contribute)
 - [Tests](#tests)
 - [Questions](#questions)
 
