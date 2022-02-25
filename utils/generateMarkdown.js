@@ -91,10 +91,11 @@ ${promptAnswers.contribute}
 ${promptAnswers.test}
 
 ## Questions
-If there are any questions about the project please visit myn GitHub page
+Please visit my GitHub page
 at https://github.com/${promptAnswers.github}
 
-...or feel free to contact me at ${promptAnswers.email}`
+If there are any questions about the project,
+feel free to open an issue or contact me at ${promptAnswers.email}`
 };
 
 module.exports = generateMarkdown;

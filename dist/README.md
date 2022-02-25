@@ -1,8 +1,8 @@
 # README Generator
-  ![License: GPLv3](https://img.shields.io/badge/license-GPLv3-blue)
+  ![License: Mozilla](https://img.shields.io/badge/license-Mozilla-blue)
 
 ## Description
-This is a node.js app that will create a professional README based on user input to the comand line.
+This app willl producee a professional readme upon completion of the user prompts.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,24 +13,25 @@ This is a node.js app that will create a professional README based on user input
 - [Questions](#questions)
 
 ## Installation
-Install all files from GitHub preserving the file structure.
+npm i
 
 ## Usage
-Run the file using node.js from the root directory (node index).
+run node index.js
 
 ## License
-[License: GPLv3](https://choosealicense.com/licenses/gpl-3.0/)  
-  ![License: GPLv3](https://img.shields.io/badge/license-GPLv3-blue)
+[Applicable License: Mozilla](https://choosealicense.com/licenses/mpl-2.0/)  
+  ![License: Mozilla](https://img.shields.io/badge/license-Mozilla-blue)
 
 ---
 ## How to Contribute
-If you have a suggestion for improvement, create a pull request to the author (me).
+Branch the main and submit a pull request if you would like to improve the app.
 
 ## Tests
-None
+npm test
 
 ## Questions
-If there are any questions about the project please visit myn GitHub page
+Please visit my GitHub page
 at https://github.com/bdswartz
 
-...or feel free to contact me at bdswartz72@gmail.com
+If there are any questions about the project,
+feel free to open an issue or contact me at bdswartz72@gmail.com
