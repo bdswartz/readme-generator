@@ -79,12 +79,11 @@ function init() {
         return generateMarkdown(promptAnswers);
     })
     .then(markdownOutput => {
-        console.log(markdownOutput);
         const fileName = './dist/README.md';
         return writeToFile(fileName, markdownOutput);
     })
     .then(writeFileResponse => {
-        console.log(writeFileResponse);
+        console.log(writeFileResponse.message);
     })
     .catch(err => {
         console.log(err);

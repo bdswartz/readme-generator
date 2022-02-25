@@ -14,36 +14,37 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  var renderedLink = "";
+  let renderedLink = "";
+  let intrLicense = "Notice, this software licenced under "
   if (license == "Unlicensed") {
     return renderedLink;
   }
   else if (license == "APLv3") {
-    renderedLink = `[License: ${license}](https://choosealicense.com/licenses/agpl-3.0/)`;
+    renderedLink = `[Applicable License: ${license}](https://choosealicense.com/licenses/agpl-3.0/)`;
     return renderedLink
   }
   else if (license == "GPLv3") {
-    renderedLink = `[License: ${license}](https://choosealicense.com/licenses/gpl-3.0/)`;
+    renderedLink = `[Applicable License: ${license}](https://choosealicense.com/licenses/gpl-3.0/)`;
     return renderedLink
   }
   else if (license == "LGPLv3") {
-    renderedLink = `[License: ${license}](https://choosealicense.com/licenses/lgpl-3.0/)`;
+    renderedLink = `[Applicable License: ${license}](https://choosealicense.com/licenses/lgpl-3.0/)`;
     return renderedLink
   }
   else if (license == "Mozilla") {
-    renderedLink = `[License: ${license}](https://choosealicense.com/licenses/mpl-2.0/)`;
+    renderedLink = `[Applicable License: ${license}](https://choosealicense.com/licenses/mpl-2.0/)`;
     return renderedLink
   }
   else if (license == "Apache") {
-    renderedLink = `[License: ${license}](https://choosealicense.com/licenses/apache-2.0/)`;
+    renderedLink = `[Applicable License: ${license}](https://choosealicense.com/licenses/apache-2.0/)`;
     return renderedLink
   }
   else if (license == "MIT") {
-    renderedLink = `[License: ${license}](https://choosealicense.com/licenses/mit/)`;
+    renderedLink = `[Applicable License: ${license}](https://choosealicense.com/licenses/mit/)`;
     return renderedLink
   }
   else if (license == "Boost") {
-    renderedLink = `[License: ${license}](https://choosealicense.com/licenses/bsl-1.0/)`;
+    renderedLink = `[Applicable License: ${license}](https://choosealicense.com/licenses/bsl-1.0/)`;
     return renderedLink
   };
 };
@@ -65,7 +66,7 @@ function generateMarkdown(promptAnswers) {
 ## Description
 ${promptAnswers.description}
 
-## Table of Contents-
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)

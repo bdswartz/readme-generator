@@ -1,10 +1,10 @@
 # README Generator
-  ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
+  ![License: GPLv3](https://img.shields.io/badge/license-GPLv3-blue)
 
 ## Description
-THis project will create a professional README.
+This is a node.js app that will create a professional README based on user input to the comand line.
 
-## Table of Contents-
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -13,21 +13,21 @@ THis project will create a professional README.
 - [Questions](#questions)
 
 ## Installation
-INstall everythibng
+Install all files from GitHub preserving the file structure.
 
 ## Usage
-run index.js
+Run the file using node.js from the root directory (node index).
 
 ## License
-[License: MIT](https://choosealicense.com/licenses/mit/)  
-  ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
+[License: GPLv3](https://choosealicense.com/licenses/gpl-3.0/)  
+  ![License: GPLv3](https://img.shields.io/badge/license-GPLv3-blue)
 
 ---
 ## How to Contribute
-nope
+If you have a suggestion for improvement, create a pull request to the author (me).
 
 ## Tests
-run and see
+None
 
 ## Questions
 If there are any questions about the project please visit myn GitHub page
